@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async-JS Assignment</title>
+
+    <script src="./main.js" defer></script>
+    <style>
+        .border{border: 2px solid green; padding: 5px; margin: 5px;}
+    </style>
+</head>
+<body>
+    <div class="border">
+        <h2>Asynchronous Assignment Part-1</h2>
+    </div>
+
+    <div class="border">
+        <h2>Asynchronous Assignment Part-2</h2>
+        <form action="" onsubmit="event.preventDefault(); countryData();">
+            Country name : <input type="text" id="countryName">
+            <input type="submit">
+        </form>
+        <div id="countryDetails"></div>
+    </div>
+    
+</body>
+</html>
